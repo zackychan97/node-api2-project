@@ -5,7 +5,7 @@ const server = express();
 server.use(express.json());
 
 server.get('/', (req, res) => {
-    res.send('Blog API is up and running your majesty...')
+    res.send(`<h1>Server running, sweeeeeeeeet.</h1>`)
 })
 
 server.use('/api/posts', blogRouter);
