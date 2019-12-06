@@ -1,5 +1,5 @@
 const express = require('express');
-const blogRouter = require('./blogRoutes.js');
+const blogRouter = require('./blog-routes.js');
 const server = express();
 
 server.use(express.json());
